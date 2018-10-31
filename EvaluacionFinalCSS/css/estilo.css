@@ -141,7 +141,75 @@ footer h2{
 /*Media query*/
 @media screen and (max-width:900px) {
     /*Header*/
-      #titulo{
-        overflow: hidden;
-        width: 100%;
+ #titulo{
+  overflow: hidden;
+  width: 100%;
+}
+header nav{
+  overflow: hidden;
+  width: 100%
+}
+/*body*/
+#foto-principal{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#foto-segundarias{
+  display: block;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+#retrato{
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding: 20px 0px;
+}
+#paisaje{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding-bottom: 20px;
+}
+
+/*footer*/
+.contenedorfooter{
+  display: block;
+  width: 100%;
+  min-height: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+footer{
+  margin-top: 20px;
+}
+}
+
+/*---------*/
+/* Pseudo-clases*/
+
+#paisaje img:hover{
+  transform: rotate(10deg);
+  border: 2px solid #050505;
+  box-shadow: 5px 5px #82c3a6;
+}
+#retrato img:hover{
+  transform: translate(-20px,-5px);
+  border: 2px solid #050505;
+  box-shadow: 5px 5px #82c3a6;
+}
+@@keyframes animation {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5px;
+  }
+  100%{
+    margin-top: 0px;
+  }
 }
