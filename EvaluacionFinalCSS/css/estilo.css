@@ -1,18 +1,18 @@
 /*generales*/
 @font-face {
-font-family: 'Dancing Script',cursive;
-      src:url("https://fonts.googleapis.com/css?family=Dancing+Script")
+font-family: 'Dancing Script', cursive;
+src: url("https://fonts.googleapis.com/css?family=Dancing+Script")
 }
 *{margin: 0px;padding: 0px;}
 body{
-  background-color:  #02010a;
+  background-color: #02010a;
 }
 .contenido{
   width: 100%;
   max-width: 900px;
   margin: auto;
   overflow: hidden;
-  font-family: 'Dancing Script',cursive;
+  font-family: 'Dancing Script', cursive;
   animation-name: animacion;
   animation-duration: 3s;
 }
@@ -22,7 +22,6 @@ header{
   width: 100%;
   overflow: hidden;
   background-color: #5b7989;
-
   line-height: 70px;
   color: #ffff;
   -webkit-border-radius:10px 10px 0px 0px;
@@ -72,7 +71,7 @@ header nav a{
   padding: 20px 20px;
   border: 0px;
   margin: 0px;
-  background-color: #06BC35;
+  background-color: #d5c75f;
 }
 .img2 img{
   width: 100%;
@@ -161,7 +160,7 @@ header nav{
   padding: 20px 0px;
 }
 #retrato{
-  width: 80px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   float: none;
@@ -198,7 +197,7 @@ footer{
   box-shadow: 5px 5px #82c3a6;
 }
 #retrato img:hover{
-  transform: translate(-20px,-5px);
+  transform: translate(20px,5px);
   border: 2px solid #050505;
   box-shadow: 5px 5px #82c3a6;
 }
